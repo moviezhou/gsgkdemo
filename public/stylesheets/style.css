@@ -1,0 +1,251 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: Noto sans-serif;  
+}
+
+a {
+  color: #00B7FF;
+}
+
+#title {
+  /* font-family: "Noto sans-serif" ; */
+}
+
+.ui.container {
+  width: 100%;
+}
+
+#section0 {
+  background: url("/images/toppagebg.png") no-repeat center center;
+  background-size: cover;
+}
+
+#section0:hover {
+  background: url("/images/toppagebgcolor.png") no-repeat center center;
+  background-size: cover;
+  transition: 2.5s;  
+}
+
+.middle-logo {
+  text-align: center;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 18px;
+  color: #0D2765;
+  font-weight: bold;
+  /* font-family: Noto sans-serif; */
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 20px;
+  font-family: Noto serif;
+  color: #0D2765;
+}
+
+#section1 {
+  background: url("/images/banner.png") no-repeat center center; 
+  background-size: cover;
+  
+}
+
+.ui.menu {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  font-size: large;
+}
+
+.ui.menu .active.item {
+  color: #0D2765;    
+}
+
+.ui.menu a.item:hover {
+  color: #FFFFFF;    
+  background: #0D2765;
+}
+
+.ui.menu .item {
+  color: #0D2765;  
+}
+
+.header {
+  padding: 12px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.logo-image {
+  width: 200px;
+}
+
+nav {
+  top: 0px;
+}
+
+.corpintro-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20%
+}
+
+.corpintro {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: left;
+  color: #0D2765;
+}
+.corpintro-title h1{
+  font-size: 40px;
+}
+
+.corpintro-body {
+  font-size: 20px;
+  color: gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.corpintro-body p {
+  line-height: 1.8;
+}
+
+.corp-milestone-nav {
+  display: flex;
+  padding-top: 30px;
+  margin-left: -72px; 
+}
+
+.milestone-label {
+  width: 844px;
+}
+
+.milestone-time {
+  font-size: larger;
+}
+
+.ui.blue.button {
+  background: #3D4979;
+  letter-spacing: 2px;
+}
+
+.ui.search {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+#section2 {
+  background: url("/images/milestonebg2.png") no-repeat center center;
+  background-size: cover;
+}
+
+#section3 {
+  background: url("/images/zixunbg.png") no-repeat center center;
+  background-size: cover;
+}
+
+#section4 {
+  background: url("/images/jituanbg1.png") no-repeat center center;
+  background-size: cover;
+}
+
+.corpintro-nav {
+  letter-spacing: 4px;
+}
+
+.ui.large.blue.button {
+  letter-spacing: 2px;
+}
+
+.content {
+  text-align: center;
+}
+
+.image {
+  filter: blur(5px);
+}
+.image:hover {
+  filter: blur(0);
+  transition: 0.5s;  
+}
+
+.classified-news {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 15%;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+#footer-content {
+  padding-left: 10%;
+}
+
+#slide2 {
+  background: url("/images/jiayuguanbg.png") no-repeat center center;
+  background-size: cover;
+}
+
+#slide3 {
+  background: url("/images/skyscraperbg.png") no-repeat center center;
+  background-size: cover;
+}
+
+.newscenter-title {
+  padding-bottom: 30px;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}
+
+
+/* #section0 {
+  background: url("/images/toppagebg.png");
+  display: block;
+  transition: 0.5s;
+} */
+
+
+
+/* #section3 {
+  background-image: url("/images/fullpage3.gif");  
+} */
